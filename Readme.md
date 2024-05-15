@@ -8,10 +8,9 @@ Send a POST request to `/orders` with the following JSON payload:
 {
     "components": ["I", "A", "D", "F", "K"]
 }
+```
 Components: A list of component codes representing the Screen, Camera, Port, OS, and Body of the mobile phone.
-
-# How to Run
-
+How to Run
 Clone the repository:
 
 git clone https://github.com/your-repo/mobile-factory-api.git
@@ -24,7 +23,7 @@ Start the server:
 python main.py
 Send a POST request to http://localhost:8000/orders using tools like Postman with the input format mentioned above.
 
-## Unit Tests
+Unit Tests
 To run the unit tests:
 
 python test.py
